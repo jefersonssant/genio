@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sevillana", serif;
+  color: #fff;
+}
+
+main {
+  background-image: url('./assets/bgPalacio.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+    h1 {
+      font-size: 52px;
+    }
+
+    img {
+      width: 40vw;
+    }
+
+    button {
+      width: 20vw;
+      padding: 10px 0px;
+      font-size: 40px;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+}
